@@ -67,4 +67,3 @@ QApplication.setApplicationName('Insecure Browser1')
 window = MainWindow()
 app.exec()
 
-# subscribe to si1az on youtube
