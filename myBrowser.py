@@ -15,7 +15,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl('http://youtube.com/si1az0'))
+        self.browser.setUrl(QUrl('http://youtube.com'))
         self.setCentralWidget(self.browser)
         self.showMaximized()
 
